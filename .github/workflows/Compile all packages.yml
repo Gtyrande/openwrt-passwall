@@ -97,7 +97,11 @@ jobs:
           - platform: x86_64
             url_sdk: https://downloads.openwrt.org/snapshots/targets/x86/64/openwrt-sdk-x86-64_gcc-14.3.0_musl.Linux-x86_64.tar.zst
             ver: "apk"
-            
+
+          - platform: aarch64_generic
+            url_sdk: https://downloads.openwrt.org/snapshots/targets/rockchip/armv8/openwrt-sdk-rockchip-armv8_gcc-14.3.0_musl.Linux-x86_64.tar.zst
+            ver: "apk"
+
           - platform: arm_cortex-a9_vfpv3-d16
             url_sdk: https://downloads.openwrt.org/snapshots/targets/mvebu/cortexa9/openwrt-sdk-mvebu-cortexa9_gcc-14.3.0_musl_eabi.Linux-x86_64.tar.zst
             ver: "apk"
@@ -213,9 +217,9 @@ jobs:
             url_sdk: https://downloads.openwrt.org/snapshots/targets/x86/64/openwrt-sdk-x86-64_gcc-14.3.0_musl.Linux-x86_64.tar.zst
             ver: "apk"
 
-        #   - platform: aarch64_generic
-        #     url_sdk: https://downloads.openwrt.org/snapshots/targets/rockchip/armv8/openwrt-sdk-rockchip-armv8_gcc-14.3.0_musl.Linux-x86_64.tar.zst
-        #     ver: "apk"
+          - platform: aarch64_generic
+            url_sdk: https://downloads.openwrt.org/snapshots/targets/rockchip/armv8/openwrt-sdk-rockchip-armv8_gcc-14.3.0_musl.Linux-x86_64.tar.zst
+            ver: "apk"
 
         #   - platform: aarch64_cortex-a53
         #     url_sdk: https://downloads.openwrt.org/snapshots/targets/mvebu/cortexa53/openwrt-sdk-mvebu-cortexa53_gcc-14.3.0_musl.Linux-x86_64.tar.zst
